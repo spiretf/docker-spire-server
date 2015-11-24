@@ -2,6 +2,10 @@
 
 Docker image for a competitive tf2 server configured for spire.
 
+```
+docker pull icewind1991/docker-spire-server
+```
+
 ## Enviroment Options
 
 | Option            | Description                    | Default          |
