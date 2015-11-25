@@ -16,3 +16,4 @@ docker pull spiretf/docker-spire-server
 | WEBRCON\_PASSWORD | The webrcon password           | $RCON\_PASSWORD  |
 | CONFIG            | The server config to execute   | etf2l_6v6_5cp    |
 | MAP               | The map to start the server on | cp_badlands      |
+| LOGSTF_APIKEY     | Api key for logs.tf            |                  |
