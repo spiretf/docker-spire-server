@@ -17,3 +17,4 @@ docker pull spiretf/docker-spire-server
 | CONFIG            | The server config to execute   | etf2l_6v6_5cp    |
 | MAP               | The map to start the server on | cp_badlands      |
 | LOGSTF_APIKEY     | Api key for logs.tf            |                  |
+| DEMOSTF_APIKEY    | Api key for demos.tf           |                  |
