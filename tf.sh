@@ -10,7 +10,8 @@ echo "rcon_password \"${RCON_PASSWORD:-rcon}\"" >> $CFG
 echo "sm_webrcon_key \"${WEBRCON_PASSWORD:-${RCON_PASSWORD:-rcon}}\"" >> $CFG
 echo "sm_demostf_apikey \"${DEMOSTF_APIKEY}\"" >> $CFG
 echo "logstf_apikey \"${LOGSTF_APIKEY}\"" >> $CFG
-echo "exec ${CONFIG:-etf2l_6v6_5cp}" >> $CFG
+echo "sm_autoexec_league ${CONFIG_LEAGUE:-etf2l}" >> $CFG
+echo "sm_autoexec_mode ${CONFIG_MODE:-6v6}" >> $CFG
 
 cd $HOME/hlserver
 tf2/srcds_run -game tf -autoupdate -steam_dir ~/hlserver -steamcmd_script ~/hlserver/tf2_ds.txt +map ${MAP:-cp_badlands} $@
