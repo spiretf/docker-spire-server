@@ -14,4 +14,4 @@ echo "sm_autoexec_league ${CONFIG_LEAGUE:-etf2l}" >> $CFG
 echo "sm_autoexec_mode ${CONFIG_MODE:-6v6}" >> $CFG
 
 cd $HOME/hlserver
-tf2/srcds_run -game tf -autoupdate -steam_dir ~/hlserver -steamcmd_script ~/hlserver/tf2_ds.txt +map ${MAP:-cp_badlands} $@
+tf2/srcds_run -game tf -autoupdate -steam_dir ~/hlserver -tickrate 120 -steamcmd_script ~/hlserver/tf2_ds.txt +map ${MAP:-cp_badlands} $@
