@@ -19,3 +19,4 @@ docker pull spiretf/docker-spire-server
 | MAP               | The map to start the server on              | cp_badlands      |
 | LOGSTF_APIKEY     | Api key for logs.tf                         |                  |
 | DEMOSTF_APIKEY    | Api key for demos.tf                        |                  |
+| TV_NAME           | Name of the STV specator bot                | $NAME TV         |
