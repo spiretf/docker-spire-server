@@ -1,3 +1,5 @@
+# Moved to https://codeberg.org/spire/docker-spire-server
+
 ## Spire Server
 
 Docker image for a competitive tf2 server configured for spire.
